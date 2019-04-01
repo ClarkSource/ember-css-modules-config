@@ -5,7 +5,7 @@ Bootstraps ember-css-modules with various PostCSS plugins and good defaults.
 ## Installation
 
 ```
-ember install @clark/ember-css-modules-clark
+ember install @clark/ember-css-modules-config
 ```
 
 ## License
