@@ -9,7 +9,11 @@
 [![dependencies Status](https://david-dm.org/ClarkSource/ember-css-modules-config/status.svg)](https://david-dm.org/ClarkSource/ember-css-modules-config)
 [![devDependencies Status](https://david-dm.org/ClarkSource/ember-css-modules-config/dev-status.svg)](https://david-dm.org/ClarkSource/ember-css-modules-config?type=dev)
 
-Bootstraps ember-css-modules with various PostCSS plugins and good defaults.
+Bootstraps [ember-css-modules][ember-css-modules] with various
+[PostCSS plugins][postcss-parts] and good defaults.
+
+[ember-css-modules]: https://github.com/salsify/ember-css-modules
+[postcss-parts]: https://www.postcss.parts/
 
 ## Installation
 
