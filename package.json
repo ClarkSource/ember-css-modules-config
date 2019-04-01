@@ -19,11 +19,9 @@
     "start": "ember serve"
   },
   "dependencies": {
-    "autoprefixer": "^9.4.10",
     "postcss-calc": "^7.0.1",
     "postcss-color-function": "^4.0.1",
     "postcss-conditionals": "^2.1.0",
-    "postcss-custom-selectors": "^5.1.2",
     "postcss-each": "^0.10.0",
     "postcss-easing-gradients": "^3.0.1",
     "postcss-for": "^2.1.1",
@@ -32,8 +30,8 @@
     "postcss-nested": "^4.1.2",
     "postcss-nested-ancestors": "^2.0.0",
     "postcss-nested-props": "^2.0.0",
+    "postcss-preset-env": "^6.6.0",
     "postcss-property-lookup": "^2.0.0",
-    "postcss-pseudo-class-any-link": "^6.0.0",
     "postcss-pseudo-class-enter": "^5.0.0",
     "postcss-scss": "^2.0.0",
     "postcss-short": "^5.0.0"
