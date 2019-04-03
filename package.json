@@ -1,6 +1,6 @@
 {
   "name": "@clark/ember-css-modules-config",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Bootstraps ember-css-modules with various PostCSS plugins and good defaults.",
   "keywords": [
     "ember-addon",
