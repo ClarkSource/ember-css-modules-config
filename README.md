@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/ClarkSource/ember-css-modules-config.svg)](https://travis-ci.org/ClarkSource/ember-css-modules-config)
 [![npm version](https://badge.fury.io/js/@clark%2Fember-css-modules-config.svg)](http://badge.fury.io/js/@clark%2Fember-css-modules-config)
 [![Download Total](https://img.shields.io/npm/dt/@clark%2Fember-css-modules-config.svg)](http://badge.fury.io/js/@clark%2Fember-css-modules-config)
-[![Ember Observer Score](https://emberobserver.com/badges/@clark%2Fember-css-modules-config.svg)](https://emberobserver.com/addons/ember-css-modules-config)
+[![Ember Observer Score](https://emberobserver.com/badges/-clark-ember-css-modules-config.svg)](https://emberobserver.com/addons/@clark/ember-css-modules-config)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)  
 [![Dependabot enabled](https://img.shields.io/badge/dependabot-enabled-blue.svg?logo=dependabot)](https://dependabot.com/)
 [![dependencies Status](https://david-dm.org/ClarkSource/ember-css-modules-config/status.svg)](https://david-dm.org/ClarkSource/ember-css-modules-config)
