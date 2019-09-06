@@ -38,7 +38,7 @@
     "postcss-short": "^5.0.0"
   },
   "devDependencies": {
-    "@clark/eslint-config-node": "^1.4.1",
+    "@clark/eslint-config-node": "^1.11.0",
     "@ember/optional-features": "^0.7.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-cli": "~3.11.0",
