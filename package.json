@@ -19,13 +19,11 @@
     "start": "ember serve"
   },
   "dependencies": {
+    "postcss-advanced-variables": "^3.0.0",
     "postcss-calc": "^7.0.1",
     "postcss-color-function": "^4.1.0",
-    "postcss-conditionals": "^2.1.0",
     "postcss-custom-selectors": "^5.1.2",
-    "postcss-each": "^0.10.0",
     "postcss-easing-gradients": "^3.0.1",
-    "postcss-for": "^2.1.1",
     "postcss-hexrgba": "^1.0.2",
     "postcss-mixins": "^6.2.2",
     "postcss-nested": "^4.1.2",
