@@ -19,7 +19,7 @@
     "start": "ember serve"
   },
   "dependencies": {
-    "postcss-advanced-variables": "^3.0.0",
+    "postcss-advanced-variables": "^3.0.1",
     "postcss-color-function": "^4.1.0",
     "postcss-custom-selectors": "^5.1.2",
     "postcss-easing-gradients": "^3.0.1",
