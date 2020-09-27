@@ -31,7 +31,7 @@
     "postcss-preset-env": "^6.7.0",
     "postcss-property-lookup": "^2.0.0",
     "postcss-pseudo-class-enter": "^5.0.0",
-    "postcss-scss": "^2.1.1",
+    "postcss-scss": "^3.0.2",
     "postcss-short": "^5.0.0"
   },
   "devDependencies": {
