@@ -24,7 +24,7 @@
     "postcss-custom-selectors": "^5.1.2",
     "postcss-easing-gradients": "^3.0.1",
     "postcss-hexrgba": "^2.0.0",
-    "postcss-mixins": "^6.2.3",
+    "postcss-mixins": "^7.0.3",
     "postcss-nested": "^4.2.1",
     "postcss-nested-ancestors": "^2.0.0",
     "postcss-nested-props": "^2.0.0",
