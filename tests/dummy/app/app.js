@@ -1,4 +1,5 @@
 import Application from '@ember/application';
+
 import loadInitializers from 'ember-load-initializers';
 
 import config from './config/environment';

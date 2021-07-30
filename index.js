@@ -14,5 +14,5 @@ module.exports = {
 
   createCssModulesPlugin(parent) {
     return new ClarkPlugin(parent);
-  }
+  },
 };
