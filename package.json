@@ -9,6 +9,10 @@
   "repository": "ClarkSource/ember-css-modules-config",
   "license": "MIT",
   "author": "Jan Buschtöns <jan.buschtoens@clark.de>",
+  "files": [
+    "lib/",
+    "index.js"
+  ],
   "scripts": {
     "build": "ember build",
     "lint:hbs": "ember-template-lint .",
