@@ -11,8 +11,11 @@
   "author": "Jan Buschtöns <jan.buschtoens@clark.de>",
   "scripts": {
     "build": "ember build",
+    "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
-    "start": "ember serve"
+    "start": "ember serve",
+    "test": "ember test",
+    "test:all": "ember try:each"
   },
   "prettier": "@clark/prettier-config/trailing-comma",
   "dependencies": {

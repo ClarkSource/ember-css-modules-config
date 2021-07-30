@@ -1,0 +1,69 @@
+name: Pull Requests
+
+on:
+  pull_request:
+
+env:
+  CI: true
+
+jobs:
+  test-locked-deps:
+    name: Locked Deps
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Install Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+      - name: Lint JS
+        run: yarn lint:js
+      - name: Lint Handlebars
+        run: yarn lint:hbs
+      - name: Browser Tests
+        run: yarn test
+
+  test-old-dependencies:
+    name: Oldest Supported Env
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Install Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 10
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile --ignore-engines
+      - name: Browser Tests
+        run: $(yarn bin ember) test
+
+  test-try:
+    name: Ember Try
+    runs-on: ubuntu-20.04
+    strategy:
+      fail-fast: false
+      matrix:
+        scenario:
+          - ember-lts-3.12
+          - ember-lts-3.16
+          - ember-lts-3.20
+          - ember-lts-3.24
+          - ember-release
+          - ember-beta
+          # https://github.com/emberjs/ember-test-helpers/pull/1066
+          # - ember-canary
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Install Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+      - name: Try Scenario
+        run: yarn ember try:one ${{ matrix.scenario }}
