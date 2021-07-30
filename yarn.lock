@@ -2895,20 +2895,19 @@ broccoli-config-replace@^1.1.2:
     debug "^2.2.0"
     fs-extra "^0.24.0"
 
-broccoli-css-modules@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/broccoli-css-modules/-/broccoli-css-modules-0.7.0.tgz#2afaf3c24bc5258ef2ed5f6829b0ebbad7e04817"
-  integrity sha512-Svaj4zZsL2rhotK6hbV/NoEIuNu/Sda4OdqvRLsvV55GjRMol/rLTo2Lm3uVdkh5wmsjL3VwWdPM77+4IJAqcQ==
+"broccoli-css-modules@^0.7.0 || ^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/broccoli-css-modules/-/broccoli-css-modules-0.8.0.tgz#a4d38bbe4c35122502bd1472fec5d40958f6af68"
+  integrity sha512-ThOk7RZtD1nIn/TPnyA7pXaR7V62/oI9WPL2Ub6so/Ms7IGU4iGcftMPcF+XWWlgf8I43id+Or8IHHhQRBRw2g==
   dependencies:
     broccoli-caching-writer "^3.0.3"
     ensure-posix-path "^1.1.1"
     icss-replace-symbols "^1.0.2"
     mkdirp "^0.5.1"
-    postcss "^6.0.0 || ^7.0.18"
-    postcss-modules-extract-imports "^1.2.0"
-    postcss-modules-local-by-default "^1.2.0"
-    postcss-modules-scope "^1.1.0"
-    postcss-modules-values "^1.3.0"
+    postcss-modules-extract-imports "^3.0.0"
+    postcss-modules-local-by-default "^4.0.0"
+    postcss-modules-scope "^3.0.0"
+    postcss-modules-values "^4.0.0"
     rsvp "^4.8.5"
     symlink-or-copy "^1.1.6"
 
@@ -2971,7 +2970,7 @@ broccoli-funnel@^2.0.0, broccoli-funnel@^2.0.1, broccoli-funnel@^2.0.2:
     symlink-or-copy "^1.0.0"
     walk-sync "^0.3.1"
 
-broccoli-funnel@^3.0.3, broccoli-funnel@^3.0.6:
+broccoli-funnel@^3.0.0, broccoli-funnel@^3.0.3, broccoli-funnel@^3.0.6:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/broccoli-funnel/-/broccoli-funnel-3.0.8.tgz#f5b62e2763c3918026a15a3c833edc889971279b"
   integrity sha512-ng4eIhPYiXqMw6SyGoxPHR3YAwEd2lr9FgBI1CyTbspl4txZovOsmzFkMkGAlu88xyvYXJqHiM2crfLa65T1BQ==
@@ -3077,7 +3076,7 @@ broccoli-persistent-filter@^1.1.6, broccoli-persistent-filter@^1.4.3:
     symlink-or-copy "^1.0.1"
     walk-sync "^0.3.1"
 
-broccoli-persistent-filter@^2.1.0, broccoli-persistent-filter@^2.2.1, broccoli-persistent-filter@^2.3.0, broccoli-persistent-filter@^2.3.1:
+broccoli-persistent-filter@^2.2.1, broccoli-persistent-filter@^2.3.0, broccoli-persistent-filter@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/broccoli-persistent-filter/-/broccoli-persistent-filter-2.3.1.tgz#4a052e0e0868b344c3a2977e35a3d497aa9eca72"
   integrity sha512-hVsmIgCDrl2NFM+3Gs4Cr2TA6UPaIZip99hN8mtkaUPgM8UeVnCbxelCvBjUBHo0oaaqP5jzqqnRVvb568Yu5g==
@@ -3097,7 +3096,7 @@ broccoli-persistent-filter@^2.1.0, broccoli-persistent-filter@^2.2.1, broccoli-p
     sync-disk-cache "^1.3.3"
     walk-sync "^1.0.0"
 
-broccoli-persistent-filter@^3.1.2:
+broccoli-persistent-filter@^3.1.1, broccoli-persistent-filter@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/broccoli-persistent-filter/-/broccoli-persistent-filter-3.1.2.tgz#41da6b9577be09a170ecde185f2c5a6099f99c4e"
   integrity sha512-CbU95RXXVyy+eJV9XTiHUC7NnsY3EvdVrGzp3YgyvO2bzXZFE5/GzDp4X/VQqX+jsk4qyT1HvMOF0sD1DX68TQ==
@@ -3157,15 +3156,16 @@ broccoli-plugin@^4.0.0, broccoli-plugin@^4.0.1, broccoli-plugin@^4.0.2, broccoli
     rimraf "^3.0.2"
     symlink-or-copy "^1.3.1"
 
-broccoli-postcss@^4.0.1:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/broccoli-postcss/-/broccoli-postcss-4.0.3.tgz#9a2839660888dc5544189fc7faa4552e6bfb72b0"
-  integrity sha512-sparRjTNnP83v11F7F+kbSv1yH2LrdPvHUIzh0KyisVlYTjaBkS/B0tdccmk0VjXXO8H23IMn5msxuJxoeJ5/w==
+"broccoli-postcss@^4.0.1 || ^5.0.0 || ^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/broccoli-postcss/-/broccoli-postcss-6.0.0.tgz#79337302398a3b8f19bcfc3691def46b3951fcf9"
+  integrity sha512-XldlgbRag80S5MTkA63PpCzTrjiEh3P1wkuVT0e9HzLK9hgD7VQLucShGoy3a7O1PkCjr2g+1Awg8xJoSqgKCA==
   dependencies:
-    broccoli-funnel "^2.0.1"
-    broccoli-persistent-filter "^2.1.0"
+    broccoli-funnel "^3.0.0"
+    broccoli-persistent-filter "^3.1.1"
+    minimist ">=1.2.5"
     object-assign "^4.1.1"
-    postcss "^7.0.5"
+    postcss "^8.1.4"
 
 broccoli-slow-trees@^3.0.1, broccoli-slow-trees@^3.1.0:
   version "3.1.0"
@@ -4179,14 +4179,6 @@ css-prefers-color-scheme@^3.1.1:
   dependencies:
     postcss "^7.0.5"
 
-css-selector-tokenizer@^0.7.0:
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/css-selector-tokenizer/-/css-selector-tokenizer-0.7.3.tgz#735f26186e67c749aaf275783405cf0661fae8f1"
-  integrity sha512-jWQv3oCEL5kMErj4wRnK/OPoBi0D+P1FR2cDCKYPaMeD2eW3/mttav8HT4hT1CKopiJI/psEULjkClhvJo4Lvg==
-  dependencies:
-    cssesc "^3.0.0"
-    fastparse "^1.1.2"
-
 css-tree@^1.0.0-alpha.39:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-1.1.3.tgz#eb4870fb6fd7707327ec95c2ff2ab09b5e8db91d"
@@ -4940,17 +4932,17 @@ ember-compatibility-helpers@^1.1.2, ember-compatibility-helpers@^1.2.1:
     fs-extra "^9.1.0"
     semver "^5.4.1"
 
-ember-css-modules@1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/ember-css-modules/-/ember-css-modules-1.3.3.tgz#80d46db65f75e6c9053ade38625c578912dc8d23"
-  integrity sha512-Mdv/zl35EkPChCiOqQOtfAou+eObjPk7bBwAKgiiASCed3Y/Uyz5yJt4Cg/TWVvvmf1sBpuRsDTvkRX8ZFc5aw==
+ember-css-modules@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/ember-css-modules/-/ember-css-modules-1.5.0.tgz#3eba9378440f84edd9f87e76088d23867571c795"
+  integrity sha512-O2d3o1oZw3LZE8K123W9in764bg4VcBj4UxspIWpsz6dAIYbpAQOb8zo/wuMIwaocd8mgjfFkS4nHpxIEvcjVw==
   dependencies:
     broccoli-bridge "^1.0.0"
     broccoli-concat "^3.2.2"
-    broccoli-css-modules "^0.7.0"
+    broccoli-css-modules "^0.7.0 || ^0.8.0"
     broccoli-funnel "^2.0.1"
     broccoli-merge-trees "^2.0.0"
-    broccoli-postcss "^4.0.1"
+    broccoli-postcss "^4.0.1 || ^5.0.0 || ^6.0.0"
     calculate-cache-key-for-tree "^1.1.0"
     debug "^3.1.0"
     ember-cli-babel "^7.7.3"
@@ -4959,7 +4951,7 @@ ember-css-modules@1.3.3:
     ensure-posix-path "^1.0.2"
     hash-string "^1.0.0"
     lodash.merge "^4.6.1"
-    postcss "^6.0.19"
+    postcss "^7.0.35 || ^8.0.0"
     semver "^5.5.0"
     toposort "^1.0.6"
 
@@ -5900,11 +5892,6 @@ fast-sourcemap-concat@^2.1.0:
     source-map "^0.4.2"
     source-map-url "^0.3.0"
     sourcemap-validator "^1.1.0"
-
-fastparse@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
-  integrity sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==
 
 fastq@^1.6.0:
   version "1.11.1"
@@ -6976,7 +6963,7 @@ iconv-lite@0.4.24, iconv-lite@^0.4.24:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-icss-replace-symbols@^1.0.2, icss-replace-symbols@^1.1.0:
+icss-replace-symbols@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/icss-replace-symbols/-/icss-replace-symbols-1.1.0.tgz#06ea6f83679a7749e386cfe1fe812ae5db223ded"
   integrity sha1-Bupvg2ead0njhs/h/oEq5dsiPe0=
@@ -8346,15 +8333,15 @@ minimalistic-crypto-utils@^1.0.1:
   dependencies:
     brace-expansion "^1.1.7"
 
+minimist@>=1.2.5, minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
+  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+
 minimist@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.2.1.tgz#827ba4e7593464e7c221e8c5bed930904ee2c455"
   integrity sha512-GY8fANSrTMfBVfInqJAY41QkOM+upUTytK1jZ0c8+3HdHrJxBJ3rF5i9moClXTE8uUSnUo8cAsCoxDXvSY4DHg==
-
-minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
 minipass@^2.2.0:
   version "2.9.0"
@@ -9442,25 +9429,10 @@ postcss-mixins@^6.2.3:
     postcss-simple-vars "^5.0.2"
     sugarss "^2.0.0"
 
-postcss-modules-extract-imports@^1.2.0:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/postcss-modules-extract-imports/-/postcss-modules-extract-imports-1.2.1.tgz#dc87e34148ec7eab5f791f7cd5849833375b741a"
-  integrity sha512-6jt9XZwUhwmRUhb/CkyJY020PYaPJsCyt3UjbaWo6XEbH/94Hmv6MP7fG2C5NDU/BcHzyGYxNtHvM+LTf9HrYw==
-  dependencies:
-    postcss "^6.0.1"
-
 postcss-modules-extract-imports@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/postcss-modules-extract-imports/-/postcss-modules-extract-imports-3.0.0.tgz#cda1f047c0ae80c97dbe28c3e76a43b88025741d"
   integrity sha512-bdHleFnP3kZ4NYDhuGlVK+CMrQ/pqUm8bx/oGL93K6gVwiclvX5x0n76fYMKuIGKzlABOy13zsvqjb0f92TEXw==
-
-postcss-modules-local-by-default@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/postcss-modules-local-by-default/-/postcss-modules-local-by-default-1.2.0.tgz#f7d80c398c5a393fa7964466bd19500a7d61c069"
-  integrity sha1-99gMOYxaOT+nlkRmvRlQCn1hwGk=
-  dependencies:
-    css-selector-tokenizer "^0.7.0"
-    postcss "^6.0.1"
 
 postcss-modules-local-by-default@^4.0.0:
   version "4.0.0"
@@ -9471,28 +9443,12 @@ postcss-modules-local-by-default@^4.0.0:
     postcss-selector-parser "^6.0.2"
     postcss-value-parser "^4.1.0"
 
-postcss-modules-scope@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-modules-scope/-/postcss-modules-scope-1.1.0.tgz#d6ea64994c79f97b62a72b426fbe6056a194bb90"
-  integrity sha1-1upkmUx5+XtipytCb75gVqGUu5A=
-  dependencies:
-    css-selector-tokenizer "^0.7.0"
-    postcss "^6.0.1"
-
 postcss-modules-scope@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/postcss-modules-scope/-/postcss-modules-scope-3.0.0.tgz#9ef3151456d3bbfa120ca44898dfca6f2fa01f06"
   integrity sha512-hncihwFA2yPath8oZ15PZqvWGkWf+XUfQgUGamS4LqoP1anQLOsOJw0vr7J7IwLpoY9fatA2qiGUGmuZL0Iqlg==
   dependencies:
     postcss-selector-parser "^6.0.4"
-
-postcss-modules-values@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/postcss-modules-values/-/postcss-modules-values-1.3.0.tgz#ecffa9d7e192518389f42ad0e83f72aec456ea20"
-  integrity sha1-7P+p1+GSUYOJ9CrQ6D9yrsRW6iA=
-  dependencies:
-    icss-replace-symbols "^1.1.0"
-    postcss "^6.0.1"
 
 postcss-modules-values@^4.0.0:
   version "4.0.0"
@@ -9774,7 +9730,7 @@ postcss-values-parser@^2.0.0, postcss-values-parser@^2.0.1:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.14, postcss@^6.0.19, postcss@^6.0.23, postcss@^6.0.6:
+postcss@^6.0.0, postcss@^6.0.14, postcss@^6.0.23, postcss@^6.0.6:
   version "6.0.23"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
   integrity sha512-soOk1h6J3VMTZtVeVpv15/Hpdl2cBLX3CAw4TAbkpTJiNPk9YP/zWcD1ND+xEtvyuuvKzbxliTOIyvkSeSJ6ag==
@@ -9783,7 +9739,7 @@ postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.14, postcss@^6.0.19, postcss@^6.0.2
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-"postcss@^6.0.0 || ^7.0.18", postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.18, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.32, postcss@^7.0.5, postcss@^7.0.6:
+postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.18, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.32, postcss@^7.0.5, postcss@^7.0.6:
   version "7.0.36"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.36.tgz#056f8cffa939662a8f5905950c07d5285644dfcb"
   integrity sha512-BebJSIUMwJHRH0HAQoxN4u1CN86glsrwsW0q7T+/m44eXOUAxSNdHRkNZPYz5vVUbg17hFgOQDE7fZk7li3pZw==
@@ -9792,7 +9748,7 @@ postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.14, postcss@^6.0.19, postcss@^6.0.2
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^8.2.15:
+"postcss@^7.0.35 || ^8.0.0", postcss@^8.1.4, postcss@^8.2.15:
   version "8.3.6"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.6.tgz#2730dd76a97969f37f53b9a6096197be311cc4ea"
   integrity sha512-wG1cc/JhRgdqB6WHEuyLTedf3KIRuD0hG6ldkFEZNCjRxiC+3i6kkWUUbiJQayP28iwG35cEmAbe98585BYV0A==
