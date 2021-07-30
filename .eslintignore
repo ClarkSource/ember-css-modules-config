@@ -8,11 +8,15 @@
 
 # dependencies
 /bower_components/
+/node_modules/
 
 # misc
 /coverage/
+!.*
+!.eslintrc.js
+.vscode/
 
 # ember-try
 /.node_modules.ember-try/
-
-/tests/
+/bower.json.ember-try
+/package.json.ember-try
