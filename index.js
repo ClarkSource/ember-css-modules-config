@@ -1,7 +1,5 @@
 'use strict';
 
-const ClarkPlugin = require('./lib/clark-plugin');
-
 module.exports = {
   name: require('./package').name,
 
@@ -13,6 +11,7 @@ module.exports = {
   },
 
   createCssModulesPlugin(parent) {
+    const ClarkPlugin = require('./lib/clark-plugin');
     return new ClarkPlugin(parent);
   },
 };
