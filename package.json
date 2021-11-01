@@ -40,7 +40,7 @@
     "postcss-short": "^5.0.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.14.9",
+    "@babel/eslint-parser": "^7.16.0",
     "@clark/eslint-config-ember": "^2.2.0",
     "@clark/eslint-config-node": "^2.2.0",
     "@clark/prettier-config": "^2.2.0",
